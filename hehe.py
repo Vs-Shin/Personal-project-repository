@@ -9,6 +9,7 @@ Contador = 7
 Acertou = False
 
 while Contador > 0:
+    print(f"Voce tem {Contador} tentativas.")
     Tentativa = int ( input ("digite sua Tentativa "))
     if Tentativa == numerosecreto:
         print ("Parabéns, você conseguiu!")
